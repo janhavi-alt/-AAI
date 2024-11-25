@@ -1,3 +1,4 @@
+#Download the train and test dataset from this site - https://zenodo.org/records/5226945 Then arrange the datasets as C:\Users\Janhavi\Downloads\cats_dogs_light\train\cat ,C:\Users\Janhavi\Downloads\cats_dogs_light\train\dog,C:\Users\Janhavi\Downloads\cats_dogs_light\test\cat,C:\Users\Janhavi\Downloads\cats_dogs_light\test\dog
 import tensorflow as tf 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, GlobalAveragePooling2D, Dropout
